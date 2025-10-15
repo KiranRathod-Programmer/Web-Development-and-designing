@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiran's Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffe259, #ffa751);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      color: #2c3e50;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-top: 15px;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #444;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #e67e22;
+      margin-bottom: 25px;
+      font-size: 1.8em;
+    }
+
+    .about p {
+      text-align: center;
+      line-height: 1.6;
+      font-size: 1.05em;
+      color: #555;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skill-item {
+      background-color: #fef5e7;
+      border: 2px solid #f1c40f;
+      border-radius: 8px;
+      padding: 12px 25px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .skill-item:hover {
+      background-color: #f1c40f;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
+
+    .project-card {
+      background-color: #fff9e6;
+      border: 1px solid #f1c40f;
+      border-radius: 10px;
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      background-color: #f1c40f;
+      color: white;
+      transform: translateY(-5px);
+    }
+
+    .contact {
+      text-align: center;
+      font-size: 1.1em;
+    }
+
+    .contact a {
+      color: #e67e22;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      section {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/140" alt="Profile Photo">
+    <h1>Kiran Rathod</h1>
+    <p>Web Developer | Creative Coder | Learner</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm Kiran, a B.Tech student passionate about building clean, responsive, and user-friendly websites. 
+      I love combining creativity with logic to bring ideas to life using HTML, CSS, and modern web design principles.
+    </p>
+  </section>
+
+  <section>
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill-item">HTML</div>
+      <div class="skill-item">CSS</div>
+      <div class="skill-item">JavaScript</div>
+      <div class="skill-item">Python</div>
+      <div class="skill-item">SQLite</div>
+      <div class="skill-item">Git & GitHub</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sample Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>A responsive portfolio website built using HTML & CSS showcasing skills and achievements.</p>
+      </div>
+      <div class="project-card">
+        <h3>Food Landing Page</h3>
+        <p>Designed a tasty restaurant landing page using clean layout and color psychology.</p>
+      </div>
+      <div class="project-card">
+        <h3>Trend Analyzer</h3>
+        <p>Mini-project fetching Google Trends data and visualizing insights in UI charts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:Kiranrathod@example.com">Kiranrathod@example.com</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/Kiranrathod</a></p>
+    <p>Phone: +91 9245454871</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kiran Rathod | Built with using HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
