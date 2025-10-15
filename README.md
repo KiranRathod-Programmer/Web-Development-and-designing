@@ -29,6 +29,6 @@ This project introduced me to DOM manipulation and basic logic handling in JS.
 ## 🏁 Acknowledgement
 Special thanks to **Oasis Infobyte** for providing this internship opportunity and helping me gain real-world project experience.
 
-
+Offer Letter from Oasis Infobyte - Kiran Rathod_Offer_Letter.pdf
 ⭐ *Feel free to explore the projects and give feedback!*
 
